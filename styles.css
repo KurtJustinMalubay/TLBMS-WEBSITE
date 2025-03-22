@@ -165,3 +165,64 @@ footer p {
   font-family: Arial, Helvetica, sans-serif;
 }
 /*FOOTER*/
+
+@media screen and (max-width: 950px) {
+  .MainHeader {
+    width: 100%;
+  }
+
+  .SideImage {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    height: 100%;
+    overflow-y: auto;
+  }
+  .navBar {
+    align-content: center;
+  }
+  .navContents ul {
+    text-align: center;
+    margin: auto;
+    padding-left: 0;
+  }
+  .navBar h1 {
+    display: none;
+  }
+  .MainSection {
+    height: 100vh;
+  }
+
+  .MainHeader {
+    width: 100%;
+  }
+
+  .SideImage {
+    display: none;
+  }
+
+  .DownloadBtn {
+    display: none;
+  }
+
+  .details {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    width: 80%;
+    height: auto;
+    padding: 1rem 0 1rem 0;
+    margin-bottom: 5rem;
+  }
+
+  footer {
+    position: relative;
+  }
+}
