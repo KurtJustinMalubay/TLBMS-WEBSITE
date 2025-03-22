@@ -181,6 +181,7 @@ footer p {
     height: 100%;
     overflow-y: auto;
   }
+
   .navBar {
     align-content: center;
   }
@@ -195,9 +196,12 @@ footer p {
   .MainSection {
     height: 100vh;
   }
-
+  .navContents ul a {
+    font-size: 0.6rem;
+  }
   .MainHeader {
     width: 100%;
+    transform: scale(0.8);
   }
 
   .SideImage {
