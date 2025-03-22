@@ -22,9 +22,13 @@ body {
   overflow-y: hidden;
   margin: 0;
   padding: 0;
-  background-color: var(--background-color);
+  background-color: black;
 }
 
+.mainCont {
+  background-color: var(--background-color);
+  height: 100%;
+}
 /* NAVBAR */
 .navBar {
   width: 100%;
@@ -194,7 +198,7 @@ footer p {
     display: none;
   }
   .MainSection {
-    height: 100vh;
+    height: 90vh;
   }
   .MainHeader {
     width: 100%;
@@ -234,5 +238,10 @@ footer p {
   .MainHeader {
     width: 100%;
     transform: scale(0.7);
+  }
+
+  .MainHeader p {
+    margin-left: 0.9rem;
+    font-size: 0.944rem;
   }
 }
