@@ -1,0 +1,148 @@
+:root {
+  --background-color: #1a1a1a;
+  --mainText-color: white;
+  --secondaryText-color: black;
+  --navfoot-color: black;
+}
+
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+body {
+  width: auto;
+  height: 100vh;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+}
+
+/* NAVBAR */
+.navBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 3.5rem;
+  background-color: var(--navfoot-color);
+  color: var(--mainText-color);
+  align-content: center;
+}
+
+.navContents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 1rem 0 1rem;
+  align-items: center;
+}
+
+.navContents ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.navContents li {
+  padding: 0 1rem 0 1rem;
+}
+
+.navContents ul a {
+  text-decoration: none;
+  color: var(--mainText-color);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.DownloadBtn {
+  color: var(--secondaryText-color);
+  background-color: var(--mainText-color);
+  font-weight: 700;
+  padding: 0.3rem 0.6rem 0.3rem 0.6rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  border-style: none;
+}
+/* NAVBAR */
+
+/*MainSection*/
+.MainSection {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+}
+.MainHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0 2rem 0;
+  color: var(--mainText-color);
+  width: 40%;
+  line-height: 3rem;
+}
+.MainHeader h1 {
+  font-size: 5rem;
+  font-weight: 900;
+}
+.MainHeader p {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.HeaderBTN {
+  transform: scale(1.3);
+  border-radius: 2rem;
+  padding: 0rem 0.6rem 0rem 0.6rem;
+}
+
+.SideImage {
+  width: 60%;
+  height: 100%;
+  background-color: #ffd1d1;
+}
+
+.SideImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*MainSecion*/
+
+/*DETAILS*/
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 30%;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  color: var(--mainText-color);
+  justify-content: center;
+}
+
+.content h1 {
+  line-height: 2rem;
+  font-weight: 700;
+}
+/*DETAILS*/
+
+/*FOOTER*/
+footer {
+  position: fixed;
+  width: 100%;
+  height: 1.3rem;
+  color: var(--mainText-color);
+  background-color: var(--navfoot-color);
+  text-align: center;
+  font-size: 0.8rem;
+  align-content: center;
+  bottom: 0;
+}
+/*FOOTER*/
