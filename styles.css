@@ -246,11 +246,12 @@ footer p {
   }
   .MainHeader {
     width: 100%;
-    transform: scale(0.7);
+    transform: scale(0.8);
   }
 
   .MainHeader p {
     margin-left: 0.9rem;
     font-size: 0.944rem;
+    letter-spacing: 0.335rem;
   }
 }
