@@ -25,6 +25,9 @@
 img {
   pointer-events: none;
 }
+.test {
+  color: white;
+}
 body {
   width: auto;
   height: 100vh;
@@ -98,7 +101,7 @@ body {
   align-items: center;
   padding: 2rem 0 2rem 0;
   color: var(--mainText-color);
-  width: 40%;
+  width: 50%;
   line-height: 3rem;
 }
 .MainHeader h1 {
@@ -115,7 +118,7 @@ body {
   color: var(--secondaryText-color);
   background-color: var(--mainText-color);
   font-weight: lighter;
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: 0.3rem 2rem 0.3rem 2rem;
   border-radius: 3rem;
   text-decoration: none;
@@ -123,7 +126,7 @@ body {
 }
 
 .SideImage {
-  width: 60%;
+  width: 50%;
   height: 100%;
   background-color: var(--background-color);
 }
@@ -132,7 +135,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 100%);
+  clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 100%);
 }
 /*MainSecion*/
 
