@@ -64,10 +64,12 @@ body {
   display: flex;
   flex-direction: row;
   list-style-type: none;
+  align-items: center;
 }
 
 .navContents li {
   padding: 0 1rem 0 1rem;
+  line-height: 0.5rem;
 }
 
 .navContents ul a {
@@ -306,7 +308,7 @@ footer p {
     font-size: 0.6rem;
   }
   .MainHeader {
-    width: 100%;
+    width: 120%;
     transform: scale(0.8);
   }
 
