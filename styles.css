@@ -15,6 +15,7 @@
   margin: 0;
   font-weight: lighter;
 }
+
 .hover {
   transition: transform 0.3s ease-in-out;
 }
@@ -105,8 +106,8 @@ body {
   line-height: 5rem;
 }
 .MainHeader p {
-  margin-left: 1.4rem;
-  letter-spacing: 0.34rem;
+  margin-left: 1.45rem;
+  letter-spacing: 0.335rem;
   font-size: 1rem;
   font-weight: 700;
 }
@@ -140,7 +141,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  height: 30%;
+  height: 40%;
 }
 .content {
   display: flex;
@@ -155,6 +156,7 @@ body {
 .content p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
+  height: 2rem;
 }
 
 .content h1 {
@@ -200,7 +202,7 @@ footer p {
   flex-direction: row;
   width: 100%;
   justify-content: center;
-  margin: auto;
+  margin-top: 7rem;
   padding-bottom: 140px;
 }
 .socialsCont {
@@ -233,6 +235,7 @@ footer p {
     display: none;
   }
   .content {
+    margin-top: 2rem;
     margin-bottom: 5rem;
   }
   .details {
@@ -253,6 +256,9 @@ footer p {
   .socialsCont {
     width: 100%;
     margin: 5rem 0 5rem 0;
+  }
+  .DownloadBtn {
+    display: none;
   }
 }
 
