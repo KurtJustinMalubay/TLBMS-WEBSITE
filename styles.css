@@ -238,7 +238,7 @@ footer p {
 
 /*ABOUT PAGE*/
 .profile {
-  max-width: 20rem;
+  width: 20rem;
   border-radius: 50%;
   align-self: center;
   margin-top: 5rem;
@@ -313,6 +313,11 @@ footer p {
   width: 2rem;
 }
 
+.dev {
+  all: unset;
+  font-size: 1.5rem;
+}
+
 @media screen and (max-width: 950px) {
   body {
     height: auto;
@@ -320,6 +325,7 @@ footer p {
   .MainHeader {
     width: 100%;
     margin-top: 5rem;
+    height: 23rem;
   }
   .SideImage {
     display: none;
@@ -355,6 +361,24 @@ footer p {
 @media screen and (max-width: 816px) {
   .navBar {
     align-content: center;
+  }
+  .profile {
+    width: 15rem;
+  }
+  .dev {
+    all: unset;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+  .aboutText {
+    line-height: 1.1rem;
+    font-size: 0.8rem;
+  }
+  .large {
+    font-size: 2.5rem;
+  }
+  .profText {
+    font-size: 1.5rem;
   }
   .navContents ul {
     display: none;
