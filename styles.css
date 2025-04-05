@@ -257,8 +257,7 @@ footer p {
   font-size: 4rem;
 }
 
-#btnMenu,
-#btnClose {
+#btnMenu {
   border: none;
   display: none;
   background-color: transparent;
@@ -266,10 +265,11 @@ footer p {
 }
 #btnClose {
   position: absolute;
-  top: 0;
   right: 0;
-  z-index: 1;
-  margin: 1rem 1rem 5rem;
+  margin: 1rem;
+  border: none;
+  background-color: transparent;
+  transition-duration: 0.7s;
 }
 #btnMenu:hover,
 #btnClose:hover {
@@ -283,6 +283,7 @@ footer p {
   background-color: black;
   width: 100%;
   overflow: auto;
+  transition-duration: 0.6s;
 }
 
 #Menu ul {
@@ -290,7 +291,7 @@ footer p {
   flex-direction: column;
   list-style-type: none;
   padding: 0;
-  margin: 3rem 0 0 0;
+  margin: 7rem 0 0 0;
   height: 100%;
   justify-content: center;
   align-items: center;
