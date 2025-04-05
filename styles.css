@@ -257,6 +257,59 @@ footer p {
   font-size: 4rem;
 }
 
+#btnMenu,
+#btnClose {
+  border: none;
+  display: none;
+  background-color: transparent;
+  transition-duration: 0.7s;
+}
+#btnClose {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  margin: 1rem 1rem 5rem;
+}
+#btnMenu:hover,
+#btnClose:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+#Menu {
+  display: none;
+  position: fixed;
+  height: 100vh;
+  background-color: black;
+  width: 100%;
+  overflow: auto;
+}
+
+#Menu ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin: 12rem 0 0 0;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#Menu ul li {
+  padding: 4rem 0 4rem 0;
+  font-size: 2rem;
+  color: var(--mainText-color);
+}
+
+#Menu a {
+  text-decoration: none;
+  color: white;
+}
+.menu {
+  width: 2rem;
+}
+
 @media screen and (max-width: 950px) {
   body {
     height: auto;
@@ -301,12 +354,10 @@ footer p {
     align-content: center;
   }
   .navContents ul {
-    text-align: center;
-    margin: auto;
-    padding-left: 0;
-  }
-  .navBar h1 {
     display: none;
+  }
+  #btnMenu {
+    display: block;
   }
   .MainHeader {
     width: 100%;

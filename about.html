@@ -8,12 +8,26 @@
     <title>TLGMS</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="./images/Logos/GLENSHH.png" />
+    <script src="./script.js"></script>
   </head>
   <body>
+    <nav id="Menu">
+      <button id="btnClose" onclick="showMenu()"><img src="./images/Icons/close.png" class="menu" /></button>
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <li>
+          <a href="./about.html"><u>ABOUT</u></a>
+        </li>
+        <li><a href="./social.html">SOCIAL MEDIA</a></li>
+        <li>
+          <a href="https://buymeacoffee.com/justinkurtu" target="_blank">BUY ME A COFFEE</a>
+        </li>
+      </ul>
+    </nav>
     <nav class="navBar">
       <div class="navContents">
         <h1>SASHIMI PRODUCTIONS</h1>
-        <ul>
+        <ul id="navBar">
           <li class="hover">
             <a href="./index.html">HOME</a>
           </li>
@@ -26,6 +40,7 @@
           </li>
         </ul>
         <a href="https://github.com/KurtJustinMalubay/TLBMS.git" class="DownloadBtn hover" target="_blank">DOWNLOAD</a>
+        <button id="btnMenu" onclick="showMenu()"><img src="./images/Icons/Menu.png" class="menu" /></button>
       </div>
     </nav>
     <div class="mainCont white center">
